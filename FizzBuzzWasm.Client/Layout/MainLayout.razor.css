@@ -94,3 +94,26 @@ main {
         right: 0.75rem;
         top: 0.5rem;
     }
+.text-fizz {
+    color: dodgerblue;
+}
+
+.text-buzz {
+    color: mediumpurple;
+}
+
+.col > diz {
+    border-radius: 5px;
+}
+
+.text-fizz {
+    color: dodgerblue;
+}
+
+.text-buzz {
+    color: mediumpurple;
+}
+
+.col > diz {
+    border-radius: 5px;
+}

@@ -2,7 +2,7 @@
     @for (int i = 1; i <= Count; i++)
     {
         <div class="col g-2">
-            <div class="bg-secondary p-2 text-center border border-dark border-2">
+            <div class="tbl bg-light p-2 text-center border border-dark border-2 rounded">
                 @if (i% FizzValue != 0 && i % BuzzValue !=0)
                 {
                     <span>@i</span>
@@ -11,11 +11,11 @@
                 {
                     if (i % FizzValue == 0)
                     {
-                        <span>Fizz</span>
+                        <span class ="text-fizz">Fizz</span>
                     }
                     if (i % BuzzValue == 0)
                     {
-                        <span>Buzz</span>
+                        <span class="text-buzz">Buzz</span>
                     }
                 }
             </div>

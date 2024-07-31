@@ -1,0 +1,9 @@
+﻿span.text-fizz{
+    color: cornflowerblue;
+}
+span.text-buzz{
+    color: lightpink;
+}
+div.col{
+    border-radius: 10px;
+}
